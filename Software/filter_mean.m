@@ -1,5 +1,5 @@
 function [ y ] = filter_mean( x, n )
-% filter_mean 均值滤波函数
+% [ y ] = filter_mean( x, n ) 均值滤波函数
 % x：数据
 % n：参数
 % 注意：当数据为二维数组时，按列求均值
